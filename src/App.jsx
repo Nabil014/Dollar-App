@@ -24,7 +24,7 @@ function App () {
   return (
     <main >
       <section className='absolute top-0 left-0 z-1' >
-        <img className='h-screen w-screen object-cover' src="https://res.cloudinary.com/demf45vva/image/upload/v1685492307/descarga_aarycj.png" alt="bg" />
+        <img className='h-screen w-screen object-cover' src="https://res.cloudinary.com/demf45vva/image/upload/v1685492713/descarga_inkqao.webp" alt="bg" />
       </section >
       <section className='z-40 flex relative h-screen w-screen items-center justify-center'>
         <section className='grid md:flex bg-white gap-4 p-4 rounded-3xl shadow-xl'>
