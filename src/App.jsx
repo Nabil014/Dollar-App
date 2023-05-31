@@ -43,7 +43,7 @@ function App () {
                         {
                           amount ? (<div className='font-bold font-mono text-emerald-400 text-lg md:text-xl'>{Number(total).toLocaleString('es-AR', {
                             style: 'currency',
-                            currency: 'ARS'
+                            currency: 'USD'
                           })
                           }
                           </div>) : null
