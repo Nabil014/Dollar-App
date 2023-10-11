@@ -16,7 +16,7 @@ export const getDollar = async () => {
       .map((cotizacion) => ({
         nombre: cotizacion.casa.nombre,
         compra: parseFloat(cotizacion.casa.compra.replace(',', '.')),
-        venta: parseFloat(cotizacion.casa.venta.replace(',', '.')),
+        venta: parseFloat(cotizacion.casa.venta.replace('.', '')),
       }))
   } catch (error) {
     console.error(error)
